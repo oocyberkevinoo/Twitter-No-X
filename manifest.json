@@ -1,0 +1,11 @@
+{
+  "content_scripts": [
+    {
+      "js": ["twitterX.js"],
+      "matches": ["https://twitter.com/*"]
+    }
+  ],
+  "manifest_version": 3,
+  "name": "Twitter No X",
+  "version": "1.0.0"
+}
